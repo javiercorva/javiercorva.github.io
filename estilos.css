@@ -1,0 +1,251 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    
+    background-color: rgb(211, 211, 211);
+    /*border: 1px solid salmon; rgb(238, 236, 236);*/
+}
+
+html {
+    scroll-behavior:smooth;
+}
+
+html body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.hojas-general {
+    display: flex;
+    min-height: 100vh;
+    padding-left: 28%;    
+}
+
+/*COMIENZO DE NAV*/
+
+.menu {
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(116, 155, 199);
+    position:fixed;
+    width: 28%;
+    height: 100vh;
+}
+
+.boton {
+    background-color: rgb(71, 108, 151);
+    border: 1px solid rgb(141, 156, 197);
+    color: white;
+    padding: 15px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.boton:hover {
+    background-color: rgb(155, 193, 236);
+}
+
+/*FIN DE NAV*/
+/*COMIENZO DE PORTADA*/
+
+h2,h3 {
+    text-align: center;
+    margin:auto;
+    text-decoration:underline rgb(156, 156, 156);
+    letter-spacing: 5px;
+}
+
+img {
+    width: 110px;
+    height:fit-content;
+    padding: 5px;
+}
+
+#nombre-foto {
+    display:flex;
+}
+
+#desarrollador {
+    margin-top: 5px;
+    letter-spacing: 10px;
+}
+
+#nombre-foto-desarrollador {
+    width: 350px;
+    margin: auto;
+}
+
+#nombre {
+    letter-spacing: 12px;
+}
+
+/*FIN DE PORTADA*/
+/*COMIENZO DE ACERCA-PORTFOLIO*/
+
+#hoja2-acerca-portfolio {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+}
+
+#acerca p {
+    margin: 20px;
+    text-align: justify;
+}
+
+#proyectos {
+    display: flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+
+#proyect {
+    text-align: center;
+    margin: 20px;
+}
+
+.hoja2-cajas {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: auto;
+}
+
+#hoja2-acerca-portfolio h3 {
+    font-size: medium;
+    font-weight: 600;
+}
+
+#proyectos {
+    max-width: 600px;
+}
+
+/*FIN DE ACERCA-PORTFOLIO*/
+/*COMIENZO DE EXPERIENCIA-LOGROS*/
+
+#hoja3-experiencia-logros {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+}
+
+.listas-exp-logros {
+    list-style-type:none;
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+}
+
+#hoja3-experiencia-logros h4 {
+    font-size: large;
+    font-weight: 700;
+    margin-bottom: 2px;
+}
+
+#hoja3-experiencia-logros p {
+    margin-left: 10px;
+}
+
+#hoja3-experiencia-logros .italic {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+#hoja3-experiencia-logros .empresa {
+    margin-bottom: 0px;
+}
+
+/*FIN DE EXPERIENCIA-LOGROS*/
+/*COMIENZO DE FORMACION-CONOCIMIENTOS*/
+
+#hoja4-formacion-conocimientos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.nombre-barras {
+    display: flex;
+    flex-direction: column;
+}
+
+#hoja4-formacion-conocimientos h2 {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+#hoja4-formacion-conocimientos h4 {
+    font-size: medium;
+    font-weight: 600;
+    font-style: italic;
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+
+#hoja4-formacion-conocimientos .progress {
+    height: 13px;
+    margin-right: 25px;
+}
+
+.listas-hoja4 {
+    list-style-type:none;
+    padding: 0px 20px;
+    max-width: 600px;
+    margin: auto;
+}
+
+#hoja4-formacion-conocimientos p {
+    margin-left: 10px;
+}
+
+/*FIN DE FORMACION-CONOCIMIENTOS*/
+/*COMIENZO DE CONTACTO*/
+
+#hoja5-contacto {
+    display: flex;
+    flex-direction: column;    
+}
+
+.item-contacto {
+    list-style-type:none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 12px;
+}
+
+#hoja5-contacto i {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+#hoja5-contacto ul {
+    padding-left: 0px;
+    width: 280px;
+    margin: auto;
+}
+
+#hoja5-contacto h3 {
+    text-align: left;
+    margin: 0px 10px 0px 10px;
+    text-decoration: none;
+    font-size: medium;
+    letter-spacing: 2px;
+}
+
+#hoja5-contacto h2 {
+    padding: 15px;
+}
+
+#hoja5-contacto article {
+    margin-top: 250px;
+}
